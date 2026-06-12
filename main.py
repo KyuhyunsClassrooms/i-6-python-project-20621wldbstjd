@@ -28,14 +28,10 @@ def show_materials():
 
 
 def calculate_score(material_index, amount):
-    """
-    선택한 물질과 투입량을 바탕으로 최종 슈트 점수를 계산하는 함수
-    """
-    # 2차원 리스트에서 선택한 물질의 '1g당 증가 점수'를 가져옵니다.
     per_gram_score = nano_materials[material_index][2]
     
-    # [여기 채우기] 1g당 점수와 사용자가 입력한 양(amount)을 곱해서 최종 점수를 계산해 보세요.
-    final_score = 0 
+    # 0 대신 per_gram_score와 amount를 곱하는 식을 세워보세요!
+    final_score = per_gram_score * amount 
     return final_score
 
 
