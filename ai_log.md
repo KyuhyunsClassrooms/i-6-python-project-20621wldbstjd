@@ -70,7 +70,7 @@ calculate_score(material_index, amount): 사용자가 선택한 물질과 투입
 determine_grade(final_score): 조건문(if-elif-else)을 활용해 계산된 점수별로 슈트의 등급(S, A, B 등)을 판정하고 결과를 출력하는 함수
 
 - 내가 반영한 부분:주제 추천,프로그래밍 코드 예시
-- 내가 수정하거나 사용하지 않은 부분:
+- 내가 수정하거나 사용하지 않은 부분:없음
 - 반영 위치: project_plan.md 1,2,3,4,5,6, main.py의 data 구조
 
 ---
